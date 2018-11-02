@@ -1,0 +1,105 @@
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+CBEffects Info Document
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+General Info
+
+Your Version: One and Three-Fourths
+Date Created/Edited from previous version: Dec. 20, 2012
+What It Is: CBEffects is a particle system package for Corona SDK.
+
+--------------------------------------------------------------------------------------
+Included in this Folder:
+
+LUA FILES -
+-ParticlePresets.lua (The preset library, I wrote it)
+-ParticlePhysics.lua (The physics library, I wrote it)
+-ParticleCollisions.lua (The collisions library, I compiled some of it and wrote some of it)
+-ParticleHelper.lua (Miscellaneous helper functions, I compiled it, but it has a lot of functions by others)
+-Library.lua (The main CBEffects file, I wrote it)
+
+PNG FILES -
+All files ending with .png were made by me, you can use them, edit them, whatever.
+
+The two logo files (CBLogo and CBEmblem) can be displayed in your app if you wish, to show off that you used CBEffects. :)
+
+OTHERS -
+CBReadme.pdf (The readme for CBEffects)
+CBInfo.txt (This file)
+
+--------------------------------------------------------------------------------------
+Copyright Information:
+The Free-To-Do information
+CBEffects is free to get.
+CBEffects is free to edit.
+CBEffects is free to use in a game.
+CBEffects is free to use in an app.
+CBEffects is free to use without crediting me. *
+CBEffects is free to use without crediting CBEffects. **
+
+The Not-Free-To-Do information
+CBEffects is NOT free to sell for any amount of money.
+CBEffects is NOT free to sell for anything.
+CBEffects is NOT free to credit yourself with.
+
+*Although crediting me would be appreciated. I’m Caleb Place, and if you’d mention me, that would be nice.
+**And crediting CBEffects might make it feel good about itself. The CBEffects logo is in the CBEffects folder - you can just display it somewhere and it will be happy.
+
+--------------------------------------------------------------------------------------
+Changelog
+
+----------
+CBEffects One
+Date Released: November 30, 2012
+(major release)
+
+-Initial Release
+----------
+----------
+CBEffects One and One-Fourth
+Date released: December 12, 2012
+(minor release)
+
+-Added optional "scale" parameter
+-Added this document
+----------
+----------
+CBEffects One and One-Half
+Date Released: December 15, 2012
+(major release)
+
+-Changed the ".new" function to ".VentGroup"
+-Re-wrote the CBReadme
+-Fixed a bug where it would throw an error with the velFunction
+-Fixed a problem where the "alongLine" position type's path was not getting changed by the scale parameter
+-Added the ".FieldGroup" function
+	-Point collision detection
+	-Added collision fields
+	-Added the ParticleCollisions file
+	-Added the collision field presets "default", "out", and "colorChange"
+-Added a color changing function to each particle
+-Added the vent preset "confetti"
+-Added the vent preset "snow"
+-Added the "atPoint" position type
+-Added the color change ability for particles
+----------
+----------
+CBEffects One and Three-Fourths
+Date Released: December 20, 2012
+(minor release)
+
+-Added the vent preset "beams"
+-Added the "kill" function for particles
+-Added the "Light and Confetti" sample
+----------
+
+--------------------------------------------------------------------------------------
+Miscellaneous:
+CBEffects Facebook Page - facebook.com/CBEffects
+
+Download the latest version - developer.coronalabs.com/forum/2012/11/30/cbeffects
+OR
+http://developer.coronalabs.com/code/cbeffects
