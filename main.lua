@@ -1,3 +1,6 @@
+--[[
+        This is the file called by Corona SDK first.
+--]]
 local _lifeStart = 1200
 local _lifeSpan = 100
 local touchedX 
